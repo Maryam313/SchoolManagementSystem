@@ -20,7 +20,6 @@ public class Record {
     //  Email
     public Record(String name, int idNumber,String Email)
     {
-        // this keyword refers to instance itself
         this.name = name;
         this.idNumber = idNumber;
         this.Email = Email;
@@ -37,15 +36,14 @@ public class Record {
     this.Email = Email;
     }
  
-    // Getting the value of idNumber
  
     public int getIdNumber() {
     return idNumber; }
  
     // Setting the value of idNumber
 
-    public void setIdNumber(int idNumber){
-    this.idNumber = idNumber;
+    public void setIdNumber(int idNumber2){
+    this.idNumber = idNumber2;
     }
  
     // Getting the value of name
@@ -60,7 +58,8 @@ public class Record {
  
     // toString() Method
     
-    @Override public String toString()
+    @Override
+    public String toString()
     {
  
         // Return the record
